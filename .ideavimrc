@@ -68,16 +68,16 @@ set relativenumber
 
 " consider camelCase/snake_case etc.
 " move to the beginning of the next word
-map w [w
+" map w [w
 
 " move to the end of the next word
-map e ]w
+" map e ]w
 
 " move to the beginning of the previous word
-map b [b
+" map b [b
 
 " move to the end of the previous word
-map ge ]b
+" map ge ]b
 
 " go to the top split
 map <A-k> <C-w>k
@@ -115,6 +115,7 @@ map <leader>rm <Action>(ExtractMethod)
 map <leader>rv <Action>(IntroduceVariable)
 map <leader>rf <Action>(IntroduceField)
 map <leader>rc <Action>(IntroduceConstant)
+map <leader>rp <Action>(IntroduceParameter)
 map <leader>rs <Action>(ChangeSignature)
 map <leader>rr <Action>(Refactorings.QuickListPopupAction)
 
