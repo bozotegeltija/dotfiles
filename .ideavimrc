@@ -157,3 +157,7 @@ map <Leader>R <Action>(ChooseRunConfiguration)
 map <Leader><F2> <Action>(Stop)
 map <leader>D <Action>(Debug)
 map <leader>z <Action>(ToggleDistractionFreeMode)
+
+map go <Action>(VcsShowNextChangeMarker)
+map gi <Action>(VcsShowPrevChangeMarker)
+map gr <Action>(Vcs.RollbackChangedLines)
